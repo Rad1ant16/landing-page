@@ -155,3 +155,30 @@ button {
     color: black;
     margin-top: 24px;
 }
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 96px;
+    padding: 48px;
+    width: 840px;
+    color:#F9FAF8;
+    border-radius: 8px;
+}
+
+.cta-text, .cta-head {
+    padding: 0;
+    margin: 0
+}
+
+.cta-button button {
+    border: 1px solid #F9FAF8;
+}
