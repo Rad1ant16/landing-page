@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0; 
+    overflow-x: hidden;
 }
 .site {
     display: flex;
@@ -13,6 +14,7 @@ body {
     background-color: #1F2937; 
     width: 100%;
     padding: 24px;
+    flex: 1;
 }
 
 .header{
@@ -100,7 +102,7 @@ button {
     align-items: center;
     margin: 24px 0px 72px 0px; 
     gap: 24px;
-    flex: auto;
+    flex: 1;
 }
 
 .head {
@@ -114,6 +116,7 @@ button {
     justify-content: space-evenly;
     align-items:center;
     gap: 48px;
+    flex-grow: 1;
 }
 
 .box .blue {
@@ -140,6 +143,7 @@ button {
     align-items: center;
     background-color: #E5E7EB;
     padding:96px 288px;
+    margin: 0;
 }
 
 .quote {
@@ -191,5 +195,6 @@ button {
     color: #E5E7EB ; 
     padding: 36px;
     font-size: 18px;
+    flex: 1;
 }
 
